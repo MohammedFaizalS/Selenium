@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suit>
+<Test>
+<Classes>
+<class name="Selenium1">/</class>
+<class name="Selenium2"></class>
+<class name="Selenium3"></class>
+</Classes>
+</Test>
+</suit>

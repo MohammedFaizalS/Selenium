@@ -1,0 +1,578 @@
+[ {
+  "line" : 23,
+  "elements" : [ {
+    "line" : 25,
+    "name" : "",
+    "description" : "",
+    "type" : "background",
+    "keyword" : "Background",
+    "steps" : [ ]
+  }, {
+    "start_timestamp" : "2022-03-09T16:30:10.452Z",
+    "line" : 26,
+    "name" : "Home page default login",
+    "description" : "",
+    "id" : "application-login;home-page-default-login",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 2000900,
+        "status" : "passed"
+      },
+      "line" : 27,
+      "name" : "validate the browser",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.validate_the_browser()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 4383735500,
+        "status" : "passed"
+      },
+      "line" : 28,
+      "name" : "Browser is Triggered",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.browser_is_triggered()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 999600,
+        "status" : "passed"
+      },
+      "line" : 29,
+      "name" : "Check if the browser is started",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.check_if_the_browser_is_started()"
+      },
+      "keyword" : "Then "
+    } ]
+  }, {
+    "line" : 25,
+    "name" : "",
+    "description" : "",
+    "type" : "background",
+    "keyword" : "Background",
+    "steps" : [ ]
+  }, {
+    "start_timestamp" : "2022-03-09T16:30:14.983Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 999000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "stepDefinations.Hooks.beforevalidation()"
+      }
+    } ],
+    "line" : 33,
+    "name" : "Home page default login",
+    "description" : "",
+    "id" : "application-login;home-page-default-login",
+    "after" : [ {
+      "result" : {
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "stepDefinations.Hooks.aftervalidation()"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 34,
+      "name" : "User is on Net bank landing page1",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.user_is_on_net_bank_landing_page1()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 3001000,
+        "status" : "passed"
+      },
+      "line" : 35,
+      "name" : "User login into application with \"mithun\" and \"2345\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"mithun\"",
+          "offset" : 33
+        }, {
+          "val" : "\"2345\"",
+          "offset" : 46
+        } ],
+        "location" : "stepDefinations.MyStepDefinitions.user_login_into_application_with_and(java.lang.String,java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 36,
+      "name" : "Home page is populated",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.home_page_is_populated()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 37,
+      "name" : "Card are displayed \"true\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"true\"",
+          "offset" : 19
+        } ],
+        "location" : "stepDefinations.MyStepDefinitions.card_are_displayed(java.lang.String)"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@regtest"
+    } ]
+  }, {
+    "line" : 25,
+    "name" : "",
+    "description" : "",
+    "type" : "background",
+    "keyword" : "Background",
+    "steps" : [ ]
+  }, {
+    "start_timestamp" : "2022-03-09T16:30:15.006Z",
+    "line" : 40,
+    "name" : "Home page default login",
+    "description" : "",
+    "id" : "application-login;home-page-default-login",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 1000200,
+        "status" : "passed"
+      },
+      "line" : 41,
+      "name" : "User is on Net bank landing page1",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.user_is_on_net_bank_landing_page1()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 2999000,
+        "status" : "passed"
+      },
+      "line" : 42,
+      "name" : "User sign with following detail",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.user_sign_with_following_detail(io.cucumber.datatable.DataTable)"
+      },
+      "rows" : [ {
+        "cells" : [ "Murugan", "1234", "Murugan@gmail.com", "india", "Male" ]
+      } ],
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 999800,
+        "status" : "passed"
+      },
+      "line" : 44,
+      "name" : "Home page is populated",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.home_page_is_populated()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 998100,
+        "status" : "passed"
+      },
+      "line" : 45,
+      "name" : "Card are displayed \"false\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"false\"",
+          "offset" : 19
+        } ],
+        "location" : "stepDefinations.MyStepDefinitions.card_are_displayed(java.lang.String)"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@sanityTest"
+    } ]
+  }, {
+    "line" : 25,
+    "name" : "",
+    "description" : "",
+    "type" : "background",
+    "keyword" : "Background",
+    "steps" : [ ]
+  }, {
+    "start_timestamp" : "2022-03-09T16:30:15.028Z",
+    "line" : 57,
+    "name" : "Home page default login",
+    "description" : "",
+    "id" : "application-login;home-page-default-login;;2",
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 50,
+      "name" : "User is on Net bank landing page1",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.user_is_on_net_bank_landing_page1()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 51,
+      "name" : "user sign in to following detailuser1 and pass123",
+      "match" : {
+        "arguments" : [ {
+          "val" : "user1",
+          "offset" : 32
+        }, {
+          "val" : " pass123",
+          "offset" : 41
+        } ],
+        "location" : "stepDefinations.MyStepDefinitions.user_sign_in_to_following_detail_and(java.lang.String,java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 1997900,
+        "status" : "passed"
+      },
+      "line" : 52,
+      "name" : "Home page is populated",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.home_page_is_populated()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 2001600,
+        "status" : "passed"
+      },
+      "line" : 53,
+      "name" : "Card are displayed \"true\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"true\"",
+          "offset" : 19
+        } ],
+        "location" : "stepDefinations.MyStepDefinitions.card_are_displayed(java.lang.String)"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@smokeTest"
+    } ]
+  }, {
+    "line" : 25,
+    "name" : "",
+    "description" : "",
+    "type" : "background",
+    "keyword" : "Background",
+    "steps" : [ ]
+  }, {
+    "start_timestamp" : "2022-03-09T16:30:15.049Z",
+    "line" : 58,
+    "name" : "Home page default login",
+    "description" : "",
+    "id" : "application-login;home-page-default-login;;3",
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 50,
+      "name" : "User is on Net bank landing page1",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.user_is_on_net_bank_landing_page1()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 999300,
+        "status" : "passed"
+      },
+      "line" : 51,
+      "name" : "user sign in to following detailuser2 and pass163",
+      "match" : {
+        "arguments" : [ {
+          "val" : "user2",
+          "offset" : 32
+        }, {
+          "val" : " pass163",
+          "offset" : 41
+        } ],
+        "location" : "stepDefinations.MyStepDefinitions.user_sign_in_to_following_detail_and(java.lang.String,java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 52,
+      "name" : "Home page is populated",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.home_page_is_populated()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 998700,
+        "status" : "passed"
+      },
+      "line" : 53,
+      "name" : "Card are displayed \"true\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"true\"",
+          "offset" : 19
+        } ],
+        "location" : "stepDefinations.MyStepDefinitions.card_are_displayed(java.lang.String)"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@smokeTest"
+    } ]
+  }, {
+    "line" : 25,
+    "name" : "",
+    "description" : "",
+    "type" : "background",
+    "keyword" : "Background",
+    "steps" : [ ]
+  }, {
+    "start_timestamp" : "2022-03-09T16:30:15.070Z",
+    "line" : 59,
+    "name" : "Home page default login",
+    "description" : "",
+    "id" : "application-login;home-page-default-login;;4",
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 1999100,
+        "status" : "passed"
+      },
+      "line" : 50,
+      "name" : "User is on Net bank landing page1",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.user_is_on_net_bank_landing_page1()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 2998900,
+        "status" : "passed"
+      },
+      "line" : 51,
+      "name" : "user sign in to following detailuser3 and pass133",
+      "match" : {
+        "arguments" : [ {
+          "val" : "user3",
+          "offset" : 32
+        }, {
+          "val" : " pass133",
+          "offset" : 41
+        } ],
+        "location" : "stepDefinations.MyStepDefinitions.user_sign_in_to_following_detail_and(java.lang.String,java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 52,
+      "name" : "Home page is populated",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.home_page_is_populated()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 999400,
+        "status" : "passed"
+      },
+      "line" : 53,
+      "name" : "Card are displayed \"true\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"true\"",
+          "offset" : 19
+        } ],
+        "location" : "stepDefinations.MyStepDefinitions.card_are_displayed(java.lang.String)"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@smokeTest"
+    } ]
+  }, {
+    "line" : 25,
+    "name" : "",
+    "description" : "",
+    "type" : "background",
+    "keyword" : "Background",
+    "steps" : [ ]
+  }, {
+    "start_timestamp" : "2022-03-09T16:30:15.108Z",
+    "line" : 60,
+    "name" : "Home page default login",
+    "description" : "",
+    "id" : "application-login;home-page-default-login;;5",
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 50,
+      "name" : "User is on Net bank landing page1",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.user_is_on_net_bank_landing_page1()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 51,
+      "name" : "user sign in to following detailuser4 and pass143",
+      "match" : {
+        "arguments" : [ {
+          "val" : "user4",
+          "offset" : 32
+        }, {
+          "val" : " pass143",
+          "offset" : 41
+        } ],
+        "location" : "stepDefinations.MyStepDefinitions.user_sign_in_to_following_detail_and(java.lang.String,java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 52,
+      "name" : "Home page is populated",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.home_page_is_populated()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 53,
+      "name" : "Card are displayed \"true\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"true\"",
+          "offset" : 19
+        } ],
+        "location" : "stepDefinations.MyStepDefinitions.card_are_displayed(java.lang.String)"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@smokeTest"
+    } ]
+  }, {
+    "line" : 25,
+    "name" : "",
+    "description" : "",
+    "type" : "background",
+    "keyword" : "Background",
+    "steps" : [ ]
+  }, {
+    "start_timestamp" : "2022-03-09T16:30:15.125Z",
+    "line" : 61,
+    "name" : "Home page default login",
+    "description" : "",
+    "id" : "application-login;home-page-default-login;;6",
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 999600,
+        "status" : "passed"
+      },
+      "line" : 50,
+      "name" : "User is on Net bank landing page1",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.user_is_on_net_bank_landing_page1()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 1000700,
+        "status" : "passed"
+      },
+      "line" : 51,
+      "name" : "user sign in to following detailuser5 and pass153",
+      "match" : {
+        "arguments" : [ {
+          "val" : "user5",
+          "offset" : 32
+        }, {
+          "val" : " pass153",
+          "offset" : 41
+        } ],
+        "location" : "stepDefinations.MyStepDefinitions.user_sign_in_to_following_detail_and(java.lang.String,java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 999800,
+        "status" : "passed"
+      },
+      "line" : 52,
+      "name" : "Home page is populated",
+      "match" : {
+        "location" : "stepDefinations.MyStepDefinitions.home_page_is_populated()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 998700,
+        "status" : "passed"
+      },
+      "line" : 53,
+      "name" : "Card are displayed \"true\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"true\"",
+          "offset" : 19
+        } ],
+        "location" : "stepDefinations.MyStepDefinitions.card_are_displayed(java.lang.String)"
+      },
+      "keyword" : "And "
+    } ],
+    "tags" : [ {
+      "name" : "@smokeTest"
+    } ]
+  } ],
+  "name" : "Application login",
+  "description" : "",
+  "id" : "application-login",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/java/features/login.feature",
+  "tags" : [ ]
+} ]
